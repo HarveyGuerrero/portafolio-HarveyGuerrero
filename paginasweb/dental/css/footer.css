@@ -1,0 +1,50 @@
+.fondo-footer{
+    background:rgb(31, 20, 92);
+    padding:20px 0px;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    width: 300px;
+    color:white;
+    margin-bottom: 10px;
+}
+.direcciones li{
+    line-height: 30px;
+}
+
+.fondo-cierre{
+    background: rgb(35, 28, 77);
+    padding:20px 0px;
+}
+.cierre{
+    width: 80%;
+    margin: auto;
+}
+.cierre p{
+    color: white;
+}
+/*Mediaquerys para Tablets*/
+@media only screen and (max-width:980px){
+    .footer{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .footer{
+        width: 98%;
+    }
+    footer{
+        text-align: center;
+    }
+    .direcciones li{
+        list-style:none;
+    }
+}

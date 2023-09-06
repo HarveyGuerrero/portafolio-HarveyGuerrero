@@ -1,0 +1,51 @@
+.portafolio {
+	
+	padding-top: 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.portafolio h2 {
+	font-family: 'Helvetica';
+	font-weight: bold;
+}
+
+.portafolio hr{
+	width: 30%;
+	border: 1px solid rgba(172,172,172,1.00);
+	margin: 10px auto;
+	
+}
+
+
+
+.galeria{
+	margin: auto;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.galeria__item{
+	width: 300px;
+	margin: 10px;
+	
+	
+}
+
+
+.galeria__img{
+	display: block;
+	max-width: 100%;
+	border-radius: 4px;
+	
+}
+
+.galeria__img:hover{
+	box-shadow: 7px 7px 12px 0px rgba(127,127,127,0.8);
+	cursor: pointer;
+}

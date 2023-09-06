@@ -1,0 +1,22 @@
+.fondo-parallax{
+    background:url(../img/family-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:400px;
+    display: flex;
+    align-items: center;
+}
+.parallax{
+    width: 80%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.parallax h2{
+    text-align: center;
+    margin-bottom: 10px;
+}

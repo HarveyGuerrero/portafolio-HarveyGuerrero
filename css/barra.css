@@ -1,0 +1,55 @@
+#redes{
+    position: fixed;
+    z-index: 100000;
+    top: 300px;
+    left:0;
+}
+
+#facebook a{
+    background-color: rgb(219, 56, 50);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+#facebook a:hover{
+    background: white;
+    color: black;
+    padding:10px 30px;
+    transition: 0.3s ease-out;
+}
+
+
+#twitter a{
+    background-color:rgb(219, 56, 50);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+#twitter a:hover{
+    background: white;
+    color: black;
+    padding:10px 30px;
+    transition: 0.3s ease-out;
+}
+
+#instagram a{
+    background-color: rgb(219, 56, 50);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+#instagram a:hover{
+    background: white;
+    color: black;
+    padding:10px 30px;
+    transition: 0.3s ease-out;
+
+}
+
+

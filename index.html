@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvey Guerrero Labán</title>
+    <link rel="icon" href="img/principal/icono potfolio.png">
+
+    <!--ESTILOS DE CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/tarjetas.css">
+    <link rel="stylesheet" href="css/barra.css">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/testimonios.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+
+    <!--Uso de Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+
+
+<body>
+    <div id="Inicio"></div>
+    <header>
+        <div class="container">
+
+            <div id="logo">
+                <a href="https://www.facebook.com/harvey.guerrerolaban"><img src="img/principal/icono potfolio.png" alt="" width="80px"></a>
+            </div>
+
+            <!--estilo del menú Hamburguesa-->
+            <label class="fa-solid fa-bars" id="menu" for="check"></label>
+            <input type="checkbox" name="" id="check">
+            <!--fin del menú Hamburguesa-->
+            <nav class="botonera">
+                <ul>
+                    <li><a href="#Inicio">INICIO</a></li>
+                    <li><a href="#Sobre_mi">SOBRE MI</a></li>
+                    <li><a href="#Servicios">SERVICIOS</a></li>
+                    <li><a href="#Portafolio">PORTAFOLIO</a></li>                    
+                    <li><a href="#Contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="overlay">
+        <div class="banner">
+            <div class="overlay">
+                <div class="cont-banner">
+                    <div class="img-ban">
+                        <img src="img/principal/foto_carnet.jpg" alt="Harvey Guerrero" id="foto_h">
+                    </div>
+
+                    <h1 id="Sobre_mi">HARVEY GUERRERO</h1>
+                    <p>
+                        Profesional joven, con pasión por
+                        su profesión, excelente capacidad
+                        de organización y facilidad para el
+                        trabajo en equipo. Persona muy
+                        adaptable a todo tipo de entornos y
+                        clara orientación a objetivos.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Barra social
+    <div id="redes">
+        <div id="facebook">
+            <a class="fa-brands fa-facebook" href="https://www.facebook.com/harvey.guerrerolaban" target="_blank"></a>
+        </div>
+
+        <div id="twitter">
+            <a class="fa-brands fa-twitter" href="https://www.twitter.com/" target="_blank"></a>
+        </div>
+
+        <div id="instagram">
+            <a class="fa-brands fa-instagram" href="https://www.instagram.com/" target="_blank"></a>
+        </div>
+    </div>
+    -->
+
+    <div class="sobre-mi">
+        <main>
+
+            <h2>Sobre mi</h2>
+            <hr>
+            <p>
+                Soy un técnico en desarrollo de sistemas recién egresado con ganas de aprender y 
+                crecer profesionalmente. Me apasiona la programación y el diseño de soluciones 
+                informáticas innovadoras y eficientes. Tengo conocimientos en diversos lenguajes y
+                herramientas de desarrollo, así como en metodologías ágiles y buenas prácticas de 
+                calidad. Mi objetivo es poner en práctica mis habilidades y conocimientos en 
+                proyectos reales que aporten valor a la sociedad y al sector tecnológico.
+            </p>
+            <a href="resources/CV_Harvey_Guerrero.pdf" download>
+                <button id="btndescarga">DESCARGAR CURRICULUM</button>
+            </a>
+
+        </main>
+    </div>
+
+    <br>
+    <br>
+
+
+
+
+    <!--fondo cards-->
+    <div class="fondo-cards" id="Servicios">
+        <h2 class="text-cards">Tecnologías</h2>
+        <hr>
+        <br>
+        <div class="cards">
+            <div class="card">
+                <img src="img/principal/python.png" alt="" class="img-card">
+                <div class="cont-card">
+                    <h3>PROGRAMACIÓN EN PYTHON</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/principal/iconc.png" alt="" class="img-card">
+                <div class="cont-card">
+                    <h3>PROGRAMACIÓN EN C#</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/principal/java.png" alt="" class="img-card">
+                <div class="cont-card">
+                    <h3>PROGRAMACIÓN EN JAVA </h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/principal/bd.png" alt="" class="img-card">
+                <div class="cont-card">
+                    <h3>BASE DE DATOS</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!--Efecto parallax-->
+    <div class="fondo-parallax">
+        <div class="parallax">
+            <div class="cont-parallax">
+                <br>
+                <br>
+                <h2>APTITUDES</h2>
+                <center>
+                    <hr>
+                </center>
+
+                <!--Aqui se configura flexbox-->
+
+                <div class="cont-servicio">
+                    <div class="cont-iconos">
+                        <div class="contenedor">
+                            <i class="iconozzz fas fa-pen-nib"></i>
+                            <h3>Estudio</h3>
+                            <p>Explorador del conocimiento, siempre en búsqueda de nuevas ideas y
+                                perspectivas. Adicto al aprendizaje constante y
+                                apasionado por desafiar los límites intelectuales
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cont-iconos">
+                        <div class="contenedor">
+                            <i class="iconozzz fas fa-desktop"></i>
+                            <h3>Adaptabilidad</h3>
+                            <p>
+                                Capaz de enfrentar los cambios con facilidad, encuentro oportunidades en los desafíos. Mi habilidad para 
+                                adaptarme rápidamente a nuevos entornos me permite sobresalir en cualquier situación
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cont-iconos">
+
+                        <div class="contenedor">
+                            <i class="iconozzz fas fa-heart"></i>
+                            <h3>Pasión</h3>
+                            <p>
+                                Apasionado por lo que hago, encuentro alegría y entusiasmo en cada tarea. Mi pasión inquebrantable 
+                                me impulsa a alcanzar altos estándares de excelencia y a perseguir mis metas con determinación.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="cont-iconos">
+
+                        <div class="contenedor">
+
+                            <i class="iconozzz fas fa-eye"></i>
+                            <h3>Disciplina</h3>
+                            <p>
+                                Un enfoque incansable hacia el logro de mis objetivos. Mi disciplina es la llave que 
+                                desbloquea mi máximo potencial y me permite superar cualquier obstáculo en mi camino.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="cont-iconos">
+
+                        <div class="contenedor">
+
+                            <i class="iconozzz far fa-lightbulb"></i>
+                            <h3>Resiliencia</h3>
+                            <p>
+                                Capaz de superar los obstáculos y aprender de las adversidades. 
+                                Mi capacidad para mantenerme firme ante los desafíos y adaptarme a las 
+                                situaciones difíciles me convierte en un individuo resiliente y perseverante.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="cont-iconos">
+
+                        <div class="contenedor">
+
+                            <i class="iconozzz fas fa-trophy"></i>
+                            <h3>Comunicación efectiva</h3>
+                            <p>
+                                Dotado de habilidades comunicativas sólidas, puedo transmitir ideas de manera clara y convincente. Mi capacidad para conectar 
+                                con diferentes audiencias me permite transmitir mensajes impactantes y construir relaciones sólidas.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--carrusel de proyectos-->
+    <div class="container">
+        
+    </div>
+
+    <!--Portafolio-->
+
+    <div class="portafolio" id="Portafolio">
+        <h2>PORTAFOLIO</h2>
+        <hr>
+        <div class="galeria">
+
+           
+            
+            <div class="galeria__item">
+                <a href="paginasweb/dental/index.html" target="_blank">
+                    <img src="img/pagDental.PNG" class="galeria__img">
+                </a>
+            </div>
+            <div class="galeria__item">
+                <a href="paginasweb/libros/index.html" target="_blank">
+                    <img src="img/libros.PNG" class="galeria__img">
+                </a>
+            </div>
+            <div class="galeria__item">
+                <a href="paginasweb/Turismo/index.html" target="_blank">
+                    <img src="img/Turismo.JPG" class="galeria__img">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Contactos!!!-->
+	<section class="bg-light py-5" id="Contacto">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<h3>Contáctanos</h3>
+				<p>Envianos un mensaje para recibir mas información.</p>
+				<form action="https://formsubmit.co/guerrero964759246@gmail.com" method="POST">
+					  <div class="input-group mb-2">
+       				  <div class="input-group-prepend">
+        			  <div class="fas fa-user input-group-text">
+					   </div>
+        			  </div>
+     				  <input type="text" name="name" class="form-control" id="inlineFormInputGroup" placeholder="Apellidos y Nombres">
+      				  </div>
+					
+					  <div class="input-group mb-2">
+       				  <div class="input-group-prepend">
+        			  <div class="far fa-envelope input-group-text">
+					   </div>  
+        			  </div>
+     				  <input type="email" name="email" class="form-control" id="inlineFormInputGroup2" placeholder="Correo Electronico">
+      				  </div>
+					
+					  <div class="input-group mb-2">
+       				  <div class="input-group-prepend">
+        			  <div class="fas fa-pencil-alt input-group-text">
+					   </div>  
+        			  </div>
+     					<textarea type="text" name="cuerpo" class="form-control" id="" cols="30" rows="10" placeholder="Dejanos aqui tu Mensaje"></textarea>
+      				  </div>
+					<div class="text-center">
+					<button type="submit" class="btn btn-primary">
+					Enviar</button>
+					</div>	
+				</form>
+			</div>	
+            <div class="col-lg-3 align-self-center" id="soport">
+                <img src="img/principal/soporte-contacto.png" alt="">
+            </div>
+		</div>
+		</div>
+	</section>
+
+
+    <div class="fondo-footer">
+        <div class="footer">
+
+
+            <footer>
+                <h3>Diseñadores</h3>
+                <ul class="auspiciadores">
+                    <li>Harvey Guerrero</li>                   
+                </ul>
+            </footer>
+
+            <footer>
+                <h3>Siguenos en nuestras redes sociales</h3>
+                <div class="social">
+                    <a href="https://github.com/Guerrero7557" target="_blank"><label class="ico fa-brands fa-github"></label></a>
+                    <a href="https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="_blank"><label class="ico fa-brands fa-linkedin"></label></a>
+                    <a href="https://www.instagram.com/harvey_gl/" target="_blank"><label class="ico fa-brands fa-instagram"></label></a>
+                </div>
+
+            </footer>
+        </div>
+        <hr>
+
+        <div class="fondo-pies">
+            <div class="pies">
+                <div class="pie">
+                    <p>Creado y desarrollado por Harvey Guerrero</p>
+                </div>
+                <div class="pie">
+                    <p>Todos los derechos redervados &copy; a Laban</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Script de font awesome-->
+    <script src="https://kit.fontawesome.com/ad1e6d5865.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

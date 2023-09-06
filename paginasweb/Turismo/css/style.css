@@ -1,0 +1,149 @@
+body{
+	font-family:Tahoma;
+}
+
+body p{
+	font-size:18px;
+	line-height:32px;
+	color: #413F3F;
+}
+.btns{
+	background:#0D5E8B;
+}
+
+.cabeza{
+	background:#0D5E8B;
+	margin-bottom:50px; 
+}
+
+#pie{
+	background:#0D5E8B;
+}
+.ico{
+	margin: 20px;
+	font-size:24px;
+	padding:24px;
+	width:75px;
+	height:70px;
+	border-radius:50%;
+	background:#111B4B;
+}
+
+.iconos a{
+	text-decoration:none;
+	color:#FFFFFF; 
+}
+
+
+
+article{
+	position:relative;
+	width:100%;
+	overflow: hidden;
+}
+
+article:hover .img-responsive{
+	transform:scale(1.5);
+	transition:all 0.5s ease-out; 
+}
+
+.img-responsive{
+	width: 100%;
+	height:400px;
+	display: block;
+	transition:all 0.5s ease-out; 
+}
+
+
+.img-auto{
+	position: relative;
+	width:120px;
+	float: right;
+}
+
+.cont-article{
+	position: absolute;
+	background: #5C5455;
+	background:rgba(0, 0, 0, 0.5); 
+	top:0;
+	width:100%;
+	height:30%;
+	padding: 5px;
+	display: block;
+	
+}
+.cont-article h3{
+	color: #FFFFFF;
+	padding:5px; 
+	font-weight:bold;
+	text-transform: uppercase;
+	margin-bottom:-5px;
+}
+
+.cont-article p{
+	color: #FFFFFF;
+}
+
+
+main h5{
+	font-size: 18px;
+}
+
+
+main img{
+	width: 100%;
+	height:200px;
+}
+
+.precio{
+	font-size: 32px;
+}
+
+.cont-main{
+	box-shadow:1px 1px 10px #000;
+	transition:all 300ms;
+}
+
+th, td{
+	font-size:24px;
+}
+
+.img-logo{
+	width: 300px;
+	height: 150px;
+	margin-top: -50px;
+}
+
+footer p{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+.vineta{
+	margin-left: 10px;
+	font-size:18px;
+	line-height:32px;
+	color: #413F3F;
+}
+
+.buen{
+ list-style-image: url(../img/vineta.png);
+	margin-bottom: 10px;
+}
+
+#menu{
+	display: block;
+}
+
+.despre{
+		transition:all 300ms;
+		display:none;
+		position: relative;
+	}
+
+.despre-click{
+		top:-15%;
+		display: block;
+		transition:all 300ms;
+	}
+

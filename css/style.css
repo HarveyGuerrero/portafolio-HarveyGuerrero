@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Tahoma;  
+    background: #E3E3E3;  
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background: rgb(37, 36, 36);
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#logo{
+    float: left;
+}
+
+#logo img{
+    border-radius: 60%;
+    width: 60px;
+    margin-top: 14px;
+}
+
+.botonera{
+    float: right;
+}
+
+.botonera ul{
+    display: flex;
+    list-style: none;
+}
+
+.botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.botonera a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/*Estilos para el banner*/
+
+.banner{
+    position: relative;
+    background: url(../img/principal/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.overlay{
+    background: rgba(45, 52, 54,0.5);
+}
+
+.cont-banner{
+    position: absolute;   
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+} 
+
+.cont-banner h1{    
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cont-banner p{        
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(211, 194, 194);
+    
+}
+
+.img-ban{
+    align-items: center;
+    justify-content: center;    
+    margin: auto;   
+   
+}
+
+
+
+#foto_h{      
+    border-style:solid;
+    border-radius: 90%;
+    width: 22%;
+}
+
+
+
+.overlay{
+    background: rgba(0, 0, 0.5);
+    width: 100%;
+}
+
+/*Cuerpo*/
+
+.sobre-mi{
+    width: 60%;    
+    text-align: center;
+}
+
+.sobre-mi h2{
+    width: 60%;    
+    text-align: left;
+}
+
+.sobre-mi p{        
+    text-align: justify;
+}
+
+.sobre-mi hr{   
+    width: 60%;    
+}
+
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-descargar{
+    float: left;
+    
+}
+
+/*
+
+input[type="submit"] {
+    
+    width: 200px;
+    height: 40px;
+    background: black;
+    border-radius: 6px;
+    color: white;
+    border: 0;
+    margin-bottom: 10px;
+    
+}
+*/
+#btndescarga{
+    float: left;
+}
+
+#btndescarga{
+    width: 30%;
+    height: 20%;
+    background: black;
+    border-radius: 6px;
+    color: white;
+    border: 0;
+    margin-bottom: 10px;
+    padding: auto;
+}
+
+#btndescarga:hover{
+    color: #FFFFFF;
+	background:rgb(75, 37, 37);
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	color: #FFFFFF;
+	background:red;
+	cursor: pointer;
+}
+
+
+/*Estilos para BANNER*/
+@media only screen and (max-width:980px){
+    
+    .container{
+        width: 90%;  
+    }
+    .cont-banner,main, section{ 
+        width: 90%;       
+        
+    }
+    .sobre-mi{
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+    
+    .container{
+        width: 98%;  
+    }
+    .cont-banner,main, section{ 
+        width: 98%;       
+        
+    }
+    
+    .sobre-mi{
+        width: 100%;
+    }
+}
+
+
+
+

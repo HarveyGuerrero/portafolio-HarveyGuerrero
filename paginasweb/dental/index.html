@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Centro</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/redes.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <style>
+        #preloader{
+            position:fixed;
+            z-index:10000000000000000;
+            background: white;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+        }
+        #preloader img{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <!--Usando el Preloader-->
+    <!--
+    <div class="contenido" id="contenido">
+        <div class="preloader">
+            <p>Cargando....</p>
+        </div>
+    </div>
+    -->
+    <div id="preloader">
+        <img src="img/preloader.gif" alt="">
+    </div>
+
+    <div id="inicio"></div>
+    <header id="header">
+        <div class="container">
+        <div id="logo">
+            <a href="#inicio">
+            <img src="img/logo.png" alt="">
+            </a>
+        </div>
+        <!--Boton Hamburguesa-->
+        <label class="btn-menu" onclick="llamar()">
+            <label class="close fas fa-bars" id="menu" style="color:white;"></label>
+        </label>
+        <nav class="botonera">
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#galeria">GALERIA</a></li>
+                <li><a href="#contactos">CONTACTOS</a></li>
+                <li><a href="login.html"><i class="fas fa-user"></i> LOGIN</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+  
+
+    </script>
+
+    <div class="banner">
+    <div class="overlay">
+        <div class="cont-banner">
+            <h2>Clinica Dental Centro</h2>
+            <p>Más de 10 años de experiencia, ofrecemos a nuestros pacientes confianza, tratamientos modernos y especializados.</p>
+        
+        </div>
+    </div>
+    </div>
+    <!--BOTON SUBIR EN JS-->
+    <a class="fas fa-angle-double-up" id="subir" href="#inicio"></a>
+
+    <div id="redes">
+        <div class="social" id="instagram">
+            <a class="fab fa-instagram" href="https://www.instagram.com"></a>
+        </div>
+        <div class="social" id="facebook">
+            <a class="fab fa-facebook" href="https://www.facebook.com"></a>
+        </div>
+        <div class="social" id="youtube">
+            <a class="fab fa-youtube" href="https://www.youtube.com"></a>
+        </div>
+    </div>
+
+    <main id="nosotros">
+        <div class="text-nosotros">
+        <h3>Clinica Dental Centro</h3>
+        <hr class="linea">
+        </div>
+        <p class="parrafo">Somos un equipo de cirujanos dentistas especializados con más de 10 años de experiencia, ofrecemos a nuestros pacientes confianza, tratamientos modernos y especializados en todas nuestras áreas para el cuidado de su salud dental y estética.Nuestros clientes son para nosotros lo mas importante que existe en el mundo.</p>
+        <img src="img/cuidados.jpg" alt="" class="img-responsive">
+    </main>
+
+
+    <div class="fondo-parallax">
+        <div class="parallax">
+            <h2>Ven y te atenderemos con lo mejor...</h2>
+            <p>Especialidad dedicada a devolver la función masticatoria, restaurar y/o devolver la pérdida de dientes a través del uso de prótesis fija, removiblee e implantes para lo mejor de tu Dentadura en el mundo.</p>
+        </div>
+    </div>
+
+    <section id="galeria" class="galeria">
+        <article>
+            <h2>Lo Mejor par las Sonrisas de Nuestros Clientes</h2>
+            <hr class="linea">
+            <p class="parrafo">Ofrecer servicios de excelencia: Para lograr esto hemos diseñado un modelo de servicio diferenciado, basado en una cultura de tratamientos perfectos, disciplina, profesionalismo y diagnósticos acertados, logrando así la total satisfacción de nuestros pacientes.
+            </p>
+        </article>
+        <article class="article-2">
+            <input type="submit" value="<<" onclick="atras()" class="botones">
+            <img src="img/img01.jpg" alt="" id="img">
+            <input type="submit" value=">>" onclick="adelante()" class="botones">
+        </article>
+    </section>
+    <script src="js/script.js"></script>
+
+
+ 
+    
+    <div class="fondo-contactos" id="contactos">
+        <div class="text-contactos">
+            <h3>CONTÁCTANOS</h3>
+            <hr class="linea">
+        </div>
+        <div class="contactos">
+            <div class="contact">
+                <h3>UBICANOS EN:</h3>
+                <ul class="listas">
+                    <li class=>AV. Los rosaes cuadra 5 frente a la loza San Miguel.
+                    </li>
+                    <li>Telefono:(01)632334355</li>
+                    <li>Celular: 964759246</li>
+                    <li>Whatsapp: 990819352</li>
+                    <li>Info: harvey990819352@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div class="formulario">
+                    <h2>Dejanos un Mensaje</h2>
+                    <form action="">
+                        <p>Apellidos y Nombres</p>
+                        <input type="text" placeholder="Ingresa tu nombres completos">
+                        <br>
+                        <p>Correo Electronico</p>
+                        <input type="email" placeholder="Ingresa tu Email">
+                        <br>
+                        <p>Celular</p>
+                        <input type="text" placeholder="Ingresa tu Celular">
+                        <br>
+                        <p>Comentarios</p>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mapa">
+        <h2 style="text-align: center;">NUESTRO MAPA</h2>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778562.7488638944!2d-75.07654286834848!3d40.3365616116408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3cde3dd9d604d%3A0xb14cd13e5bb0b9ca!2sNew%20Jersey%20Dental%20Centers!5e0!3m2!1ses-419!2spe!4v1616743891511!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    
+
+
+<div class="fondo-footer">
+    <div class="footer">
+        <footer style="align-content: center;text-align: center;">
+            <img src="img/logo.png" alt="" width="100px">
+            <h3>Dental Dent 2021</h3>
+            <h4>SIGUENOS EN:</h4>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </footer>
+        <footer>
+            <h3>HORARIO DE ATENCIÓN</h3>
+            <hr class="linea">
+            <br> 
+            <p>Todos los Dias -     9:00 am - 9:00pm</p>
+            <br>
+            <p>Lunes a Viernes -    9:00 am - 9:00pm</p>
+            <br>
+            <p>Sábados y Domingos - 9:00 am - 5:00pm</p>
+        </footer>
+        <footer>
+            <h3>CONTÁCTANOS EN:</h3>
+            <hr class="linea">
+            <br>
+            <ul class="direcciones">
+                <li>AV. Los rosaes cuadra 5 frente a la loza San Miguel.
+                </li>
+                <li>Celular: 964759246</li>
+                <li>Correo: harvey990819352@gmail.com</li>
+            </ul>
+        </footer>
+    </div>
+</div>
+<div class="fondo-cierre">
+    <div class="cierre">
+        <p>Creado por Harvey Guerrero</p>
+    </div>
+</div>
+</body>
+</html>
